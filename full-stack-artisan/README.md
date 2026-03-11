@@ -276,29 +276,86 @@ npx playwright test --ui
 
 ## 🚀 Deployment Checklist
 
-### Pre-deployment
-```bash
-□ npm run build (no errors)
-□ npm run test (all pass)
-□ npm run lint (no warnings)
-□ npm run typecheck (no errors)
-□ Lighthouse audit (>90 score)
+### GitHub Pages Configuration (Critical!)
+
+**next.config.js για GitHub Pages:**
+```javascript
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  distDir: 'dist',
+  basePath: '/repo-name',           // Όνομα repo σου
+  assetPrefix: '/repo-name',        // ΧΩΡΙΣ trailing slash!
+  trailingSlash: true,              // Σημαντικό για paths
+  images: {
+    unoptimized: true,              // Required για static export
+  },
+};
+
+module.exports = nextConfig;
 ```
 
-### Deployment
+**⚠️ ΠΡΟΣΟΧΗ - ΜΗΝ ανεβάσεις node_modules!**
 ```bash
-□ Push to GitHub
-□ CI/CD triggers
-□ Build succeeds
-□ Tests pass in CI
-□ Deploy to production
-□ Smoke test live
+# Σωστό deploy (ΜΟΝΟ dist folder):
+cd dist
+git init
+git add .
+git commit -m "Deploy"
+git remote add origin https://[TOKEN]@github.com/user/repo.git
+git push origin HEAD:gh-pages --force
+
+# ΛΑΘΟΣ (ανεβάζει όλο το project με node_modules):
+git add .        # ❌ ΜΗΝ το κάνεις αυτό!
+git push         # ❌ Θα ανεβάσει GB από node_modules!
+```
+
+### Pre-deployment Checklist
+```bash
+□ npm run build (no errors)
+□ Έλεγξε ότι dist/index.html έχει content (όχι default Next.js template!)
+□ Έλεγξε ότι dist/_next/static/ υπάρχει με assets
+□ Όλα τα paths στο HTML πρέπει να είναι /repo-name/_next/...
+□ npm run test (all pass)
+□ npm run lint (no warnings)
+```
+
+### GitHub Pages Deploy
+```bash
+□ Build: npm run build
+□ Επιβεβαίωση dist/ έχει σωστά files
+□ cd dist/ (ΜΟΝΟ αυτό το folder!)
+□ git init && git add . && git commit
+□ git remote add origin [repo-url]
+□ git push origin HEAD:gh-pages --force
+□ Περίμενε 2-3 λεπτά για cache
+□ Hard refresh (Ctrl+F5)
+□ Έλεγξε Network tab για 404 errors
+```
+
+### Troubleshooting GitHub Pages
+
+**Πρόβλημα:** Άδειο site / default Next.js template
+**Λύση:** Το build δεν έγινε σωστά. Έλεγξε:
+- `output: 'export'` στο next.config.js
+- Υπάρχουν pages στο src/app/
+
+**Πρόβλημα:** 404 errors σε CSS/JS assets  
+**Λύση:** Λάθος assetPrefix. Πρέπει:
+- `assetPrefix: '/repo-name'` (χωρίς / στο τέλος!)
+- Όχι `assetPrefix: '/'` (ψάχνει στο root)
+
+**Πρόβλημα:** "Large files detected" στο git push
+**Λύση:** Ανέβασες node_modules! Κάνε:
+```bash
+rm -rf node_modules .git
+cd dist && git init  # Ξεκίνα από το dist μόνο
 ```
 
 ### Post-deployment
 ```bash
 □ Verify all pages load
-□ Check console for errors
+□ Check console για 404 errors
 □ Test forms submission
 □ Monitor error rates
 □ Check performance metrics
