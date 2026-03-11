@@ -1,56 +1,56 @@
 # Kimi Claw Skills
 
-A collection of specialized skills for Kimi Claw AI assistant - organized, documented, and ready to use.
+Συλλογή από specialized skills για τον Kimi Claw AI assistant - οργανωμένα, τεκμηριωμένα και έτοιμα για χρήση.
 
-## 📚 Available Skills
+## 📚 Διαθέσιμα Skills
 
 ### 1. [full-stack-artisan](./full-stack-artisan/)
 **Master full-stack developer persona**
 
-Combines beautiful frontend design, solid backend architecture, and comprehensive testing. Expert in:
+Συνδυάζει beautiful frontend design, solid backend architecture και comprehensive testing. Περιλαμβάνει:
 - Next.js 14+ (App Router)
 - TypeScript + Tailwind CSS + shadcn/ui
 - Node.js/Python backends
 - Jest + Playwright testing
 - CI/CD deployment
 
-**Use for:** Web applications, full-stack projects, production-ready code
+**Χρήση για:** Web applications, full-stack projects, production-ready code
 
 ---
 
 ### 2. [classic-sequential](./classic-sequential/)
 **Sequential workflow execution mode**
 
-One developer, multiple hats, sequential execution with continuous work:
+Ένας developer, πολλαπλά roles, sequential execution με continuous work:
 - 5 phases: Research → Design → Development → Testing → Deploy
 - Hourly heartbeat updates
-- Always available for interruptions
+- Πάντα διαθέσιμος για interruptions
 - Automatic role switching
 
-**Use for:** Focused projects with clear timeline, single-threaded execution
+**Χρήση για:** Focused projects με clear timeline, single-threaded execution
 
 ---
 
 ### 3. [discrete-messaging](./discrete-messaging/)
-**Communication protocol for async messaging**
+**Communication protocol για async messaging**
 
-Breaks thinking into discrete, non-replaceable messages:
-- Never replaces a message (always new)
-- Separate messages for thinking, status, actions
-- Optimized for Telegram/async communication
+Σπάει το thinking σε discrete, non-replaceable messages:
+- Ποτέ δεν αντικαθιστά message (πάντα καινούργιο)
+- Separate messages για thinking, status, actions
+- Optimized για Telegram/async communication
 
-**Use for:** Telegram bot, async chat interfaces
+**Χρήση για:** Telegram bot, async chat interfaces
 
 ---
 
-## 🚀 How to Use
+## 🚀 Πώς να Χρησιμοποιήσεις
 
-Each skill has its own folder with:
+Κάθε skill έχει το δικό του folder με:
 - `README.md` - Full documentation
 - Usage examples
 - Configuration options
 
-To activate a skill, tell Kimi Claw:
+Για να ενεργοποιήσεις ένα skill, πες στον Kimi Claw:
 ```
 "Use [skill-name] for this project"
 "Activate [skill-name] mode"
@@ -61,19 +61,19 @@ To activate a skill, tell Kimi Claw:
 
 | Skill | Status | Description |
 |-------|--------|-------------|
-| full-stack-artisan | ✅ Active | Developer persona with 5-phase workflow |
-| classic-sequential | ✅ Active | Sequential execution with heartbeats |
+| full-stack-artisan | ✅ Active | Developer persona με 5-phase workflow |
+| classic-sequential | ✅ Active | Sequential execution με heartbeats |
 | discrete-messaging | ✅ Active | Async messaging protocol |
-| agency-mode | ❌ Removed | Nested spawning not supported |
+| agency-mode | ❌ Removed | Nested spawning δεν υποστηρίζεται |
 
-## 🔧 For Developers
+## 🔧 Για Developers
 
-These skills are designed for OpenClaw framework. Each skill defines:
-- **Identity**: Who Kimi becomes
-- **Workflow**: How work is organized  
-- **Communication**: How updates are delivered
-- **Deliverables**: What to expect
+Αυτά τα skills είναι σχεδιασμένα για OpenClaw framework. Κάθε skill ορίζει:
+- **Identity**: Ποιος γίνεται ο Kimi
+- **Workflow**: Πώς οργανώνεται η δουλειά
+- **Communication**: Πώς παραδίδονται τα updates
+- **Deliverables**: Τι να περιμένεις
 
 ---
 
-*Made with ❤️‍🔥 by Kimi Claw*
+*Φτιαγμένο με ❤️‍🔥 από Kimi Claw*
