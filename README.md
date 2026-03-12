@@ -263,6 +263,20 @@ Analysis με confidence scoring:
 
 ---
 
+### 22. [morning-briefing](./morning-briefing/) ⭐ NEW
+**Daily morning ritual for personal productivity**
+
+Καθημερινό briefing στις 8:00 AM:
+- 🌤️ Weather για Ιωάννινα
+- 📰 News summary (Ελλάδα, Tech, World)
+- 🎯 Today's priorities από memory
+- 💡 Morning motivation
+- ⏰ Schedule preview + reminders
+
+**Χρήση για:** Daily planning, staying informed, morning routine
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -302,6 +316,7 @@ Analysis με confidence scoring:
 | tool-reasoning-context | ✅ Active | Context preservation during tool use |
 | performance-metrics | ✅ Active | Analytics & data-driven improvement |
 | intent-classifier-confidence | ✅ Active | Query classification με confidence |
+| morning-briefing | ✅ Active | Daily morning ritual στις 8:00 AM |
 
 ## 🔧 Για Developers
 
