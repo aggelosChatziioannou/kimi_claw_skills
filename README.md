@@ -200,6 +200,18 @@ Deep research με live progress updates:
 
 ---
 
+### 17. [chain-of-thought](./chain-of-thought/) ⭐ NEW
+**Show reasoning before answering**
+
+Διαφανής σκέψη - βλέπεις το process πριν την απάντηση:
+- 🤔 Thinking process για complex tasks
+- ✅ Decision explanation
+- 📝 Clear final answer
+
+**Χρήση για:** Trust, learning, debugging, collaboration
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -234,6 +246,7 @@ Deep research με live progress updates:
 | code-review-checklist | ✅ Active | 10-point code review |
 | auto-documentation | ✅ Active | Generate docs from code |
 | enhanced-memory | ✅ Active | Pattern recognition & preferences |
+| chain-of-thought | ✅ Active | Show reasoning before final answer |
 
 ## 🔧 Για Developers
 
