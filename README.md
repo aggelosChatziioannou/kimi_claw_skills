@@ -212,6 +212,19 @@ Deep research με live progress updates:
 
 ---
 
+### 18. [self-reflection-loop](./self-reflection-loop/) ⭐ NEW
+**Continuous learning through post-task analysis**
+
+Αυτόματο reflection μετά από κάθε task:
+- ✓ What worked (success factors)
+- ✗ What didn't (issues encountered)
+- 💡 Lessons learned (insights gained)
+- 🔮 How to improve (actionable changes)
+
+**Χρήση για:** Continuous improvement, pattern recognition, institutional knowledge
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -247,6 +260,7 @@ Deep research με live progress updates:
 | auto-documentation | ✅ Active | Generate docs from code |
 | enhanced-memory | ✅ Active | Pattern recognition & preferences |
 | chain-of-thought | ✅ Active | Show reasoning before final answer |
+| self-reflection-loop | ✅ Active | Post-task learning & improvement |
 
 ## 🔧 Για Developers
 
