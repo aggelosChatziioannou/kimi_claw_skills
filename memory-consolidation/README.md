@@ -1,169 +1,154 @@
 # Memory Consolidation Skill
 
-🧠 Σύστημα διαχείρισης και ενίσχυσης μνήμης για τον Kimi Claw AI assistant.
+🧠 Σύστημα διαχείρισης και ενίσχυσης μνήμης με internet research για τον Kimi Claw AI assistant.
 
 ## 📋 Overview
 
-Αυτό το skill διασφαλίζει ότι ο Kimi Claw **δεν ξεχνά** σημαντικές πληροφορίες, προτιμήσεις και αποφάσεις του χρήστη. Κάνει scheduled επανάληψη και consolidation της μνήμης κάθε πρωί.
+Αυτό το skill διασφαλίζει ότι ο Kimi Claw **δεν ξεχνά** σημαντικές πληροφορίες και **παραμένει ενημερωμένος** με τις τελευταίες εξελίξεις.
 
 **Συχνότητα:** Καθημερινά στις 10:00 AM  
-**Διάρκεια:** ~3-5 λεπτά  
-**Notification:** Telegram message με summary
+**Διάρκεια:** ~8-12 λεπτά (memory + research)  
+**Notification:** Telegram message με summary + insights  
 
 ---
 
-## 🎯 Σκοπός
+## 🎯 Τρία Συστατικά
 
-### Τύποι Memory που Διαχειρίζεται
+### 1. 🔄 Memory Consolidation
+Διαβάζει και οργανώνει local memories (όπως πριν)
 
-| Type | Περιγραφή | Παράδειγμα |
-|------|-----------|------------|
-| **Semantic** | Γεγονότα και γνώση | "Ο χρήστης προτιμάει Next.js για projects" |
-| **Episodic** | Συγκεκριμένα events | "Φτιάξαμε το Sokratis website στις 11/3" |
-| **Procedural** | Workflows και διαδικασίες | "Πώς κάνω deploy σε GitHub Pages" |
-| **Preferences** | Προτιμήσεις χρήστη | "Θέλει updates κάθε ώρα, discrete messaging" |
+### 2. 🔍 Internet Research  
+Ψάχνει για νέες τεχνολογίες, best practices, και trends
+
+### 3. 💡 Smart Insights
+Συγκρίνει το δικό μας setup με το industry και προτείνει βελτιώσεις
 
 ---
 
-## 📁 Memory Sources
-
-### Files που Διαβάζονται
+## 📅 Daily Schedule (10:00 AM)
 
 ```
-workspace/
-├── MEMORY.md              # Long-term memories, αποφάσεις
-├── USER.md               # User preferences, projects
-├── IDENTITY.md           # Ποιος είμαι, persona
-├── AGENTS.md             # Agent configuration
-├── SOUL.md              # Προσωπικότητα, values
-├── TOOLS.md             # Local tool notes
-├── BOOTSTRAP.md         # First-run instructions
-├── HEARTBEAT.md         # Periodic tasks
-└── memory/
-    ├── 2026-03-11.md    # Daily notes
-    ├── 2026-03-12.md    # Daily notes
-    └── ...
-```
+🔄 Phase 1: Memory Consolidation (3 min)
+   ├─ Διάβασμα MEMORY.md, USER.md, IDENTITY.md
+   ├─ Refresh daily notes
+   └─ Pattern recognition
 
-### Skills που Τracking
+🔍 Phase 2: Internet Research (5-7 min)
+   ├─ Search for latest AI agent trends
+   ├─ Check OpenClaw updates
+   ├─ Research best practices
+   └─ Find missing skills/features
 
-```
-skills/
-├── full-stack-artisan/   # Developer persona
-├── classic-sequential/   # Workflow mode
-├── discrete-messaging/   # Communication style
-└── memory-consolidation/ # Αυτό το skill!
+💡 Phase 3: Smart Analysis (2-3 min)
+   ├─ Cross-reference: Τι έχουμε vs τι έχουν άλλοι
+   ├─ Gap detection: Τι λείπει;
+   ├─ Suggestions: Τι να προσθέσουμε;
+   └─ Trending: Τι είναι hot τώρα;
+
+📱 Phase 4: Report & Notify
+   └─ Send comprehensive report
 ```
 
 ---
 
-## ⏰ Schedule & Actions
+## 📚 Research Sources
 
-### Καθημερινά (10:00 AM)
+### Καθημερινά Ψάχνω:
+- AWS AI/ML blogs (agent memory, best practices)
+- GitHub trending (AI agent repos)
+- Mem0.ai documentation (memory systems)
+- OpenAI/Anthropic updates
+- Dev.to / Medium (agent tutorials)
+- Hacker News (tech discussions)
 
-```
-🔍 Phase 1: Reading
-   ├─ Διάβασμα MEMORY.md
-   ├─ Διάβασμα USER.md
-   ├─ Διάβασμα IDENTITY.md
-   └─ Διάβασμα σημερινού daily note
-
-📝 Phase 2: Consolidation
-   ├─ Εύρεση νέων memories
-   ├─ Έλεγχος για conflicts
-   ├─ Update outdated info
-   └─ Generate summary
-
-✅ Phase 3: Report
-   ├─ Create daily report
-   ├─ Send notification
-   └─ Archive if needed
-```
-
-### Εβδομαδιαία (Κυριακή)
-
-```
-📅 Weekly Review
-   ├─ Σύνοψη εβδομάδας
-   ├─ Highlight σημαντικών events
-   ├─ Progress σε projects
-   └─ Lessons learned
-```
-
-### Μηνιαία
-
-```
-📆 Monthly Archive
-   ├─ Compact παλιών daily notes
-   ├─ Archive σε long-term memory
-   └─ Generate trends report
-```
+### Weekly Deep Dives (Κυριακή):
+- Επιλεγμένο θέμα σε βάθος (βλ. `research-topics/weekly-topics.json`)
 
 ---
 
 ## 📊 Report Format
 
-### Daily Report (που στέλνεται στο Telegram)
-
 ```
-🧠 Memory Consolidation Complete
+🧠 Memory Consolidation + Internet Research
+📅 Date: 2026-03-12 | Time: 10:00 AM
 
-📅 Date: 2026-03-12
-⏱️ Duration: 3.2s
-✅ Status: Success
+═══════════════════════════════════════
+📊 MEMORY STATUS
+═══════════════════════════════════════
+✅ Memories refreshed: 12
+📁 Files checked: 5
+🎯 Active Projects: Greek Coffee, Sokratis
+👤 User Style: Discrete messaging, morning person
 
-📁 Files Checked: 5
-📊 Memories Refreshed: 12
-🆕 New Entries: 2
-🗑️ Archived: 0
+═══════════════════════════════════════
+🔍 TODAY'S INTERNET RESEARCH
+═══════════════════════════════════════
+Topic: "AI agent testing frameworks 2026"
+Sources: AWS Blog, GitHub, Mem0 docs
 
-🎯 Quick Context:
-• Active Projects: Greek Coffee, Sokratis
-• User Style: Discrete messaging, hourly updates
-• Preferred Tech: Next.js, TypeScript, Tailwind
-• Current Phase: Development
+Key Findings:
+• Visual regression testing είναι πλέον standard
+• Playwright προτιμάται από Cypress (80%)
+• Self-healing selectors gaining traction
 
-📝 Recent Highlights:
-• Fixed GitHub Pages deployment issue
-• Created kimi_claw_skills repo
-• 3 skills active and documented
+═══════════════════════════════════════
+⚡ WHAT OTHERS HAVE (THAT WE DON'T)
+═══════════════════════════════════════
+✗ Automated visual regression
+✗ Memory conflict resolution UI  
+✗ Multi-user session support
+✗ Agent-to-agent communication
 
-🔄 Next Review: Tomorrow 10:00 AM
+═══════════════════════════════════════
+💡 SMART SUGGESTIONS
+═══════════════════════════════════════
+[High Impact]
+1. Add visual testing with Playwright
+   Why: Industry standard, improves quality
+   Effort: Medium | Source: AWS Blog
+
+[Medium Impact]  
+2. Create memory conflict dashboard
+   Why: Mem0 pattern, helps debugging
+   Effort: Low | Source: Mem0 docs
+
+[Future Consideration]
+3. Multi-user support
+   Why: Letta framework has it
+   Effort: High | Not priority now
+
+═══════════════════════════════════════
+📈 TRENDING THIS WEEK
+═══════════════════════════════════════
+↑ "Agent memory visualization" +45%
+↑ "Self-healing agents" +30%
+↑ "Automated testing" +25%
+↓ "Manual deployment" -30%
+
+═══════════════════════════════════════
+🎯 ACTION ITEMS
+═══════════════════════════════════════
+• Read: https://aws.amazon.com/blogs/ml/...
+• Consider: Adding visual testing skill
+• Research: Self-healing patterns
+
+Next Review: Tomorrow 10:00 AM
 ```
 
 ---
 
-## 🛠️ Technical Implementation
+## 🗓️ Weekly Deep Dive Topics
 
-### Cron Configuration
-
-```json
-{
-  "schedule": {
-    "cron": "0 10 * * *",
-    "timezone": "Europe/Athens",
-    "action": "memory_consolidation",
-    "notify": true
-  }
-}
-```
-
-### Process Flow
-
-```
-User (doesn't need to do anything)
-    ↓
-Cron Trigger (10:00 AM daily)
-    ↓
-Memory Consolidation Agent
-    ↓
-    ├─ Read all memory files
-    ├─ Analyze & consolidate
-    ├─ Generate report
-    └─ Send notification
-    ↓
-User receives Telegram message
-```
+| Εβδομάδα | Θέμα | Focus Area |
+|----------|------|------------|
+| Week 1 | AI agent testing best practices | Quality Assurance |
+| Week 2 | GitHub Actions advanced features | DevOps |
+| Week 3 | Memory management patterns | Architecture |
+| Week 4 | Next.js 15 new features | Frontend |
+| Week 5 | OpenClaw alternatives comparison | Platform |
+| Week 6 | User preference learning | Personalization |
+| Week 7 | Automated error recovery | Reliability |
+| Week 8 | Multi-agent orchestration | Scalability |
 
 ---
 
@@ -174,19 +159,61 @@ User receives Telegram message
 | Setting | Default | Options |
 |---------|---------|---------|
 | **Time** | 10:00 AM | Οποιαδήποτε ώρα |
-| **Frequency** | Daily | Daily/Weekly/Bi-weekly |
+| **Research depth** | Standard | Quick/Standard/Deep |
+| **Topics focus** | Auto | Tech/DevOps/Design/All |
 | **Notification** | Telegram | Telegram/Email/Silent |
-| **Report Detail** | Standard | Brief/Standard/Detailed |
-| **Auto-archive** | On | On/Off |
-| **Language** | Greek + English | Greek/English/Both |
+| **Weekly deep dive** | Sunday | Day of week |
 
-### Πώς να Αλλάξεις Ρυθμίσεις
+---
 
-Πες μου:
+## 🛠️ Technical Implementation
+
+### Scripts Structure
+
 ```
-"Change memory consolidation time to 9:00 AM"
-"Make reports more detailed"
-"Switch to weekly instead of daily"
+memory-consolidation/
+├── scripts/
+│   ├── daily-review.sh           # Main orchestrator
+│   ├── memory-consolidation.py   # Local memory processing
+│   ├── internet-research.py      # Web research (kimi_search)
+│   ├── gap-analyzer.py           # Compare & find gaps
+│   └── insight-generator.py      # Create suggestions
+├── templates/
+│   └── report-template.md        # Report format
+├── research-topics/
+│   ├── weekly-topics.json        # Schedule
+│   └── findings-cache/           # Research history
+└── README.md                     # This file
+```
+
+### Process Flow
+
+```
+Cron Trigger (10:00 AM)
+    ↓
+[daily-review.sh]
+    ↓
+[Phase 1: memory-consolidation.py]
+    → Read local files
+    → Pattern recognition
+    → Generate stats
+    ↓
+[Phase 2: internet-research.py]
+    → kimi_search() for trends
+    → Check documentation
+    → Find best practices
+    ↓
+[Phase 3: gap-analyzer.py]
+    → Compare our setup vs industry
+    → Identify missing features
+    → Score opportunities
+    ↓
+[Phase 4: insight-generator.py]
+    → Create actionable suggestions
+    → Prioritize by impact
+    → Format report
+    ↓
+Send Telegram notification
 ```
 
 ---
@@ -194,16 +221,16 @@ User receives Telegram message
 ## 📈 Benefits
 
 ### Για τον Χρήστη
-- ✅ Δεν χάνονται σημαντικές πληροφορίες
-- ✅ Συνέπεια στα projects
-- ✅ Προσωποποιημένη εμπειρία
-- ✅ Ιστορικό διαθέσιμο ανά πάσα στιγμή
+- ✅ Μνήμη πάντα φρέσκια
+- ✅ Ενημέρωση για νέες τεχνολογίες
+- ✅ Suggestions για βελτιώσεις
+- ✅ Trends και industry insights
 
 ### Για τον Kimi Claw
-- ✅ Fresh context κάθε μέρα
-- ✅ Λιγότερο token usage (συνοπτική μνήμη)
-- ✅ Καλύτερο reasoning
-- ✅ Αποφυγή contradictions
+- ✅ Continuous learning
+- ✅ Better context
+- ✅ Stay relevant
+- ✅ Proactive improvements
 
 ---
 
@@ -211,26 +238,19 @@ User receives Telegram message
 
 ### Τι Γίνεται Αν...
 
-**Δεν υπάρχουν νέα memories;**
-→ Στέλνω brief confirmation: "Memory fresh, no updates"
+**Internet είναι down;**
+→ Συνεχίζω με local memory consolidation only
+→ Σημειώνω να κάνω research όταν έρθει online
+
+**Δεν βρίσκω relevant info;**
+→ Expand search terms
+→ Try alternative sources
+→ Report: "No significant updates today"
 
 **Υπάρχουν conflicts;**
-→ Επισημαίνω στο report και προτείνω resolution
-
-**Το file είναι corrupted;**
-→ Ειδοποίηση + backup restore attempt
-
-**Ο χρήστης είναι offline;**
-→ Queue report για όταν έρθει online
-
----
-
-## 🔒 Privacy & Security
-
-- 🔐 Όλα τα memories είναι **local** (δεν φεύγουν από το workspace)
-- 🗑️ Δυνατότητα **delete all** on request (GDPR compliant)
-- 👤 Έλεγχος **ποιος έχει access** (μόνο ο χρήστης)
-- 📝 **Audit trail** για όλες τις αλλαγές
+→ Prioritize by recency
+→ Flag for user attention
+→ Suggest resolution
 
 ---
 
@@ -238,15 +258,15 @@ User receives Telegram message
 
 Για να ενεργοποιήσεις:
 ```
-"Activate memory consolidation skill"
-"Start daily memory reviews"
-"Enable memory maintenance"
+"Activate enhanced memory consolidation"
+"Start daily memory + research"
+"Enable smart insights"
 ```
 
 Για να απενεργοποιήσεις:
 ```
 "Pause memory consolidation"
-"Stop daily memory reviews"
+"Stop daily research"
 ```
 
 ---
@@ -259,4 +279,4 @@ User receives Telegram message
 
 ---
 
-*Φτιαγμένο με 🧠 και ❤️‍🔥 για long-term memory excellence*
+*Φτιαγμένο με 🧠, 🔍 και ❤️‍🔥 για intelligent memory excellence*

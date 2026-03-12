@@ -1,0 +1,95 @@
+{
+  "schedule": {
+    "rotation": "8-week cycle",
+    "start_week": 1,
+    "topics": {
+      "1": {
+        "title": "AI Agent Testing Best Practices",
+        "focus": "Quality Assurance",
+        "keywords": ["Playwright", "visual regression", "E2E testing", "automated QA"],
+        "sources": ["AWS Blog", "Playwright docs", "GitHub trends"]
+      },
+      "2": {
+        "title": "GitHub Actions Advanced Workflows",
+        "focus": "DevOps",
+        "keywords": ["CI/CD", "automation", "deployment", "GitHub Actions"],
+        "sources": ["GitHub Blog", "GitHub Docs", "DevOps subreddit"]
+      },
+      "3": {
+        "title": "Memory Consolidation Patterns",
+        "focus": "Architecture",
+        "keywords": ["memory systems", "AgentCore", "Mem0", "Zep"],
+        "sources": ["AWS ML Blog", "Mem0 docs", "Letta docs"]
+      },
+      "4": {
+        "title": "Next.js 15 Features & Patterns",
+        "focus": "Frontend",
+        "keywords": ["Next.js", "App Router", "React", "SSR"],
+        "sources": ["Next.js Blog", "Vercel Blog", "React docs"]
+      },
+      "5": {
+        "title": "OpenClaw Alternatives Comparison",
+        "focus": "Platform",
+        "keywords": ["AI agents", "frameworks", "LangChain", "AutoGPT"],
+        "sources": ["GitHub trending", "Hacker News", "Dev.to"]
+      },
+      "6": {
+        "title": "User Preference Learning Systems",
+        "focus": "Personalization",
+        "keywords": ["preference learning", "adaptation", "personalization"],
+        "sources": ["ML papers", "Medium AI", "AWS ML"]
+      },
+      "7": {
+        "title": "Automated Error Recovery Agents",
+        "focus": "Reliability",
+        "keywords": ["self-healing", "error recovery", "resilience"],
+        "sources": ["AWS architecture", "SRE blogs", "GitHub"]
+      },
+      "8": {
+        "title": "Multi-Agent Orchestration",
+        "focus": "Scalability",
+        "keywords": ["orchestration", "multi-agent", "coordination"],
+        "sources": ["LangGraph docs", "AutoGen", "Microsoft Research"]
+      }
+    }
+  },
+  "daily_rotation": [
+    "AI agent best practices",
+    "OpenClaw framework updates", 
+    "memory management patterns",
+    "GitHub trending repositories"
+  ],
+  "research_sources": [
+    {
+      "name": "AWS AI/ML Blog",
+      "url": "https://aws.amazon.com/blogs/machine-learning/",
+      "reliability": "high",
+      "focus": "enterprise patterns"
+    },
+    {
+      "name": "GitHub Trending",
+      "url": "https://github.com/trending",
+      "reliability": "high",
+      "focus": "open source tools"
+    },
+    {
+      "name": "Mem0 Documentation",
+      "url": "https://docs.mem0.ai",
+      "reliability": "high",
+      "focus": "memory systems"
+    },
+    {
+      "name": "Dev.to AI Tag",
+      "url": "https://dev.to/t/ai",
+      "reliability": "medium",
+      "focus": "practical tutorials"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "reliability": "medium",
+      "focus": "tech discussions"
+    }
+  ],
+  "last_updated": "2026-03-12"
+}
