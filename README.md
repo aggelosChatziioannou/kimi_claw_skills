@@ -225,6 +225,18 @@ Deep research με live progress updates:
 
 ---
 
+### 19. [tool-reasoning-context](./tool-reasoning-context/) ⭐ NEW
+**Preserve thinking continuity during tool operations**
+
+Διατήρηση context όταν χρησιμοποιώ tools:
+- 🤔 State intent before tool call
+- 🎯 Maintain context in multi-step chains
+- 💡 Connect results back to goals
+
+**Χρήση για:** Transparency, debugging, learning the thought process
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -261,6 +273,7 @@ Deep research με live progress updates:
 | enhanced-memory | ✅ Active | Pattern recognition & preferences |
 | chain-of-thought | ✅ Active | Show reasoning before final answer |
 | self-reflection-loop | ✅ Active | Post-task learning & improvement |
+| tool-reasoning-context | ✅ Active | Context preservation during tool use |
 
 ## 🔧 Για Developers
 
