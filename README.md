@@ -116,6 +116,90 @@ Standardized workspace setup:
 
 ---
 
+### 10. [query-classifier](./query-classifier/) ⭐ NEW
+**Smart query type detection**
+
+Αναγνωρίζει αυτόματα τον τύπο ερωτήματος:
+- SIMPLE → Άμεση απάντηση
+- MEDIUM → 1-2 status updates
+- COMPLEX → Full status sequence
+
+**Χρήση για:** Κατάλληλη στρατηγική ανάλογα με το ερώτημα
+
+---
+
+### 11. [self-review](./self-review/) ⭐ NEW
+**Quality control before sending**
+
+5-point checklist πριν κάθε απάντηση:
+- Correctness, Completeness, Tone, Verification, Safety
+
+**Χρήση για:** Βελτίωση ποιότητας απαντήσεων
+
+---
+
+### 12. [deep-research](./deep-research/) ⭐ NEW
+**Comprehensive multi-source research**
+
+Deep research με live progress updates:
+- 10+ πηγές, synthesis, gap analysis
+- Απάντηση στα Ελληνικά
+- Clickable source links
+
+**Χρήση για:** Thorough research με citations
+
+---
+
+### 13. [task-planner](./task-planner/) ⭐ NEW
+**Smart project breakdown**
+
+Σπάει μεγάλα projects σε μικρά steps:
+- Auto-detection project type
+- Time estimates
+- Dependencies
+- Progress tracking
+
+**Χρήση για:** Project management, no overwhelm
+
+---
+
+### 14. [code-review-checklist](./code-review-checklist/) ⭐ NEW
+**Quality control before commits**
+
+10-point checklist:
+- Security, style, documentation, performance
+- Auto-detection common issues
+- Severity levels (Blocking/Warning/Info)
+
+**Χρήση για:** Bug prevention, code quality
+
+---
+
+### 15. [auto-documentation](./auto-documentation/) ⭐ NEW
+**Generate docs from code**
+
+Αυτόματη παραγωγή:
+- README.md από project structure
+- API docs από endpoints
+- CHANGELOG από commits
+
+**Χρήση για:** Up-to-date documentation
+
+---
+
+### 16. [enhanced-memory](./enhanced-memory/) ⭐ NEW
+**Pattern recognition & preference tracking**
+
+Μαθαίνει από conversations:
+- Pattern detection (timezone, style, hours)
+- Preference tracking (explicit & implicit)
+- Decision history
+- Auto-tagging
+
+**Χρήση για:** Better personalization over time
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -140,10 +224,16 @@ Standardized workspace setup:
 | memory-consolidation | ✅ Active | Daily memory maintenance |
 | github-pro-sync | ✅ Active | Verified Git operations με hash checking |
 | know-thyself | ✅ Active | Kimi-Claw limitations και capabilities |
-| communication-protocol | ✅ Active | Unified messaging standard (Status→Content→Attachments) |
-| transparent-thinking | ✅ Active | Real-time progress updates via status messages |
+| communication-protocol | ✅ Active | Unified messaging standard |
+| transparent-thinking | ✅ Active | Real-time progress updates |
 | workspace-config | ✅ Active | SOUL.md και configuration templates |
-| agency-mode | ❌ Removed | Nested spawning δεν υποστηρίζεται |
+| query-classifier | ✅ Active | Smart query type detection |
+| self-review | ✅ Active | Quality control checklist |
+| deep-research | ✅ Active | Multi-source research με citations |
+| task-planner | ✅ Active | Smart project breakdown |
+| code-review-checklist | ✅ Active | 10-point code review |
+| auto-documentation | ✅ Active | Generate docs from code |
+| enhanced-memory | ✅ Active | Pattern recognition & preferences |
 
 ## 🔧 Για Developers
 
