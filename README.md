@@ -277,6 +277,24 @@ Analysis με confidence scoring:
 
 ---
 
+### 23. [email-assistant](./email-assistant/) ⭐ NEW
+**Gmail integration with triple security safeguards**
+
+📧 Προσωπικός email assistant:
+- 📖 Read emails όταν το ζητάς
+- 📝 Create drafts (πάντα για review πρώτα)
+- ✅ Send emails (μόνο με confirmation)
+- 🗑️ Manage spam/organization
+
+🛡️ **Triple Safeguard:**
+- 🔒 Draft review πριν κάθε αποστολή
+- 📢 Notification log για κάθε action
+- 📊 Weekly audit κάθε Κυριακή
+
+**Χρήση για:** Email management, drafts, organization
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -317,6 +335,7 @@ Analysis με confidence scoring:
 | performance-metrics | ✅ Active | Analytics & data-driven improvement |
 | intent-classifier-confidence | ✅ Active | Query classification με confidence |
 | morning-briefing | ✅ Active | Daily morning ritual στις 8:00 AM |
+| email-assistant | ✅ Active | Gmail με triple security safeguards |
 
 ## 🔧 Για Developers
 
