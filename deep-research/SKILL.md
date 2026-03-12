@@ -49,27 +49,40 @@ Deep research takes 15-20 minutes. Without updates, user thinks I'm stuck. This 
 
 ## Output Format
 
+### Language Requirement
+**MANDATORY:** All responses must be in **Greek** (with English terminology where appropriate).
+
 ### Executive Summary
-Brief overview of what was found (2-3 paragraphs)
+Brief overview of what was found (2-3 paragraphs) - in Greek
 
 ### Key Findings
-1. **Finding 1** - with supporting evidence
-2. **Finding 2** - with supporting evidence
-3. **Finding 3** - with supporting evidence
+1. **Finding 1** - with supporting evidence - in Greek
+2. **Finding 2** - with supporting evidence - in Greek
+3. **Finding 3** - with supporting evidence - in Greek
 ...
 
 ### Trends & Patterns
-- Trend 1
-- Trend 2
-- Trend 3
+- Trend 1 (in Greek)
+- Trend 2 (in Greek)
+- Trend 3 (in Greek)
 
 ### Gaps Identified
-What information was NOT found (future research directions)
+What information was NOT found (future research directions) - in Greek
 
 ### Sources Consulted
-1. [Title] - [URL] - Key point: ...
-2. [Title] - [URL] - Key point: ...
-...
+**MANDATORY:** List ALL sources with clickable links:
+
+1. [Title] - URL: `https://...` - Key point: ...
+2. [Title] - URL: `https://...` - Key point: ...
+3. [Title] - URL: `https://...` - Key point: ...
+
+**Format:**
+```
+📚 ΠΗΓΕΣ:
+
+1. [Article Title](https://actual-url.com) - Κύριο σημείο: ...
+2. [Article Title](https://actual-url.com) - Κύριο σημείο: ...
+```
 
 ### Confidence Assessment
 - High confidence: Facts verified by 3+ sources
