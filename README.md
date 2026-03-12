@@ -250,6 +250,19 @@ Tracking και analysis:
 
 ---
 
+### 21. [intent-classifier-confidence](./intent-classifier-confidence/) ⭐ NEW
+**Classify queries with confidence and ask when uncertain**
+
+Analysis με confidence scoring:
+- 🎯 Intent detection (what they want)
+- 📊 Confidence level (0-100%)
+- ❓ Clarification when <50%
+- 🔄 Alternative interpretations
+
+**Χρήση για:** Precision, fewer assumptions, better alignment
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -288,6 +301,7 @@ Tracking και analysis:
 | self-reflection-loop | ✅ Active | Post-task learning & improvement |
 | tool-reasoning-context | ✅ Active | Context preservation during tool use |
 | performance-metrics | ✅ Active | Analytics & data-driven improvement |
+| intent-classifier-confidence | ✅ Active | Query classification με confidence |
 
 ## 🔧 Για Developers
 
