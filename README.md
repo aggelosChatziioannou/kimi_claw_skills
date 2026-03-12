@@ -237,6 +237,19 @@ Deep research με live progress updates:
 
 ---
 
+### 20. [performance-metrics](./performance-metrics/) ⭐ NEW
+**Data-driven improvement through analytics**
+
+Tracking και analysis:
+- 📊 Task success rates και durations
+- 📈 Tool usage patterns
+- ⚠️ Error frequencies και types
+- 📉 Improvement trends over time
+
+**Χρήση για:** Visibility, trends, objective improvement measurement
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -274,6 +287,7 @@ Deep research με live progress updates:
 | chain-of-thought | ✅ Active | Show reasoning before final answer |
 | self-reflection-loop | ✅ Active | Post-task learning & improvement |
 | tool-reasoning-context | ✅ Active | Context preservation during tool use |
+| performance-metrics | ✅ Active | Analytics & data-driven improvement |
 
 ## 🔧 Για Developers
 
