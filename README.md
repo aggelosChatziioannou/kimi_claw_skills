@@ -43,6 +43,19 @@
 
 ---
 
+### 4. [memory-consolidation](./memory-consolidation/)
+**Daily memory refresh και consolidation system**
+
+Διασφαλίζει ότι δεν ξεχνάω σημαντικές πληροφορίες:
+- Καθημερινή επανάληψη στις 10:00 AM
+- Consolidation 4 τύπων μνήμης (semantic, episodic, procedural, preferences)
+- Auto-report στο Telegram
+- Archive παλιών memories
+
+**Χρήση για:** Long-term memory maintenance, consistency, personalization
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -64,6 +77,7 @@
 | full-stack-artisan | ✅ Active | Developer persona με 5-phase workflow |
 | classic-sequential | ✅ Active | Sequential execution με heartbeats |
 | discrete-messaging | ✅ Active | Async messaging protocol |
+| memory-consolidation | ✅ Active | Daily memory maintenance |
 | agency-mode | ❌ Removed | Nested spawning δεν υποστηρίζεται |
 
 ## 🔧 Για Developers
