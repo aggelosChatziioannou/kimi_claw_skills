@@ -389,6 +389,30 @@ Analysis με confidence scoring:
 
 ---
 
+### 29. [sub-agent-monitor](./sub-agent-monitor/) ⭐ NEW
+**Sub-agent tracking and announcements**
+
+🎯 Automatically track and announce sub-agent activity:
+- 🔔 Announces when sub-agents start
+- 📊 Shows real-time progress
+- ⏱️ Displays elapsed time
+- ✅ Notifies on completion
+
+**Example:**
+```
+🚀 Starting: Deep Research (10-20 min)
+
+[Normal conversation...]
+
+---
+⚙️ ACTIVE: Deep Research (45%, 12 min)
+💻 Code Review: 3/5 files (10 min)
+```
+
+**Χρήση για:** Always know what's running in background
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -435,6 +459,7 @@ Analysis με confidence scoring:
 | second-brain | ✅ Active | AI-powered knowledge management |
 | code-reviewer | ✅ Active | Code review before commits |
 | smart-router | ✅ Active | Automatic skill activation |
+| sub-agent-monitor | ✅ Active | Sub-agent tracking & announcements |
 
 ## 🔧 Για Developers
 
