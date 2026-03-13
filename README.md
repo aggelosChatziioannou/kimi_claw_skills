@@ -313,6 +313,23 @@ Analysis με confidence scoring:
 
 ---
 
+### 25. [cron-responder](./cron-responder/) ⭐ NEW
+**Handle cron system events and forward to Telegram**
+
+🔄 Bridge between cron jobs and Telegram:
+- 📡 Receives system events from cron
+- 🎯 Identifies event type (morning/memory/email)
+- 📨 Forwards messages to Telegram instantly
+
+**How it works:**
+- Cron sends `systemEvent` to main session
+- Skill detects event type via emoji trigger
+- Sends formatted message to user's Telegram
+
+**Χρήση για:** Reliable scheduled message delivery
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -355,6 +372,7 @@ Analysis με confidence scoring:
 | morning-briefing | ✅ Active | Daily morning ritual στις 8:00 AM |
 | email-assistant | ✅ Active | Gmail με triple security safeguards |
 | auto-improvement-mode | ✅ Active | Time-boxed self-improvement |
+| cron-responder | ✅ Active | Cron events → Telegram bridge |
 
 ## 🔧 Για Developers
 
