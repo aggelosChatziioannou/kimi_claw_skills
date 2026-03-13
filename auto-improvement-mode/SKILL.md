@@ -149,6 +149,12 @@ Sub-agent responds with progress
 
 ## Version History
 
+- **v2.1** (2026-03-14) - Continuous work mode
+  - Makes REAL improvements (not just analysis)
+  - NO idle time - always productive
+  - Reports unfinished work
+  - Auto-fixes gaps and ambiguities
+  
 - **2.0.0** (2026-03-14) - Time enforcement + communication
   - Strict 30-minute minimum
   - Sub-agent communication support
