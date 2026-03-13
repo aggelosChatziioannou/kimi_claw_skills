@@ -413,6 +413,29 @@ Analysis με confidence scoring:
 
 ---
 
+### 30. [ai-code-analyzer](./ai-code-analyzer/) ⭐ NEW
+**Deep semantic code analysis with AI**
+
+🔍 Professional-grade code analysis:
+- 🐛 Bug detection (undefined vars, logic errors)
+- 🔒 Security scanning (SQL injection, XSS, secrets)
+- ⚡ Performance analysis (O(n²), memory leaks)
+- 🔄 Multi-file refactoring
+- 💯 Code quality scoring
+
+**Example:**
+```
+🔍 CODE ANALYSIS REPORT
+• Score: 72/100
+⚠️ BUGS (2): Line 23, 45
+🔒 SECURITY (1): SQL injection Line 67
+⚡ PERFORMANCE (1): O(n²) loop Line 89
+```
+
+**Χρήση για:** Code reviews, security audits, performance optimization
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -460,6 +483,7 @@ Analysis με confidence scoring:
 | code-reviewer | ✅ Active | Code review before commits |
 | smart-router | ✅ Active | Automatic skill activation |
 | sub-agent-monitor | ✅ Active | Sub-agent tracking & announcements |
+| ai-code-analyzer | ✅ Active | Deep semantic code analysis |
 
 ## 🔧 Για Developers
 
