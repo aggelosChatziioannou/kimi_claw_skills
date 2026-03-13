@@ -445,6 +445,30 @@ User: "Start 30 min auto-improvement"
 
 ---
 
+### 31. [ecourse-monitor](./ecourse-monitor/) ⭐ NEW
+**UOI ecourse announcement tracking**
+
+📚 Automatic monitoring of university course announcements:
+- 🔍 Checks all 9 enrolled courses
+- 🔔 Detects new announcements
+- 📊 Morning briefing integration
+- 📝 Saves all announcements to memory
+
+**Example:**
+```
+📚 **ECOURSE CHECK**
+📊 Σύνολο: 1 ανακοινώσεις
+
+**Αλγόριθμοι για Δεδομένα Ευρείας Κλίμακας**
+  • Ωράριο Διαλέξεων
+
+⏱️ Τελευταίος έλεγχος: 2026-03-14 08:00
+```
+
+**Χρήση για:** Never miss course announcements
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -493,6 +517,7 @@ User: "Start 30 min auto-improvement"
 | smart-router | ✅ Active | Automatic skill activation |
 | sub-agent-monitor | ✅ Active | Sub-agent tracking & announcements |
 | ai-code-analyzer | ✅ Active | Deep semantic code analysis |
+| ecourse-monitor | ✅ Active | UOI ecourse announcement tracking |
 
 ## 🔧 Για Developers
 
