@@ -350,6 +350,26 @@ Analysis με confidence scoring:
 
 ---
 
+### 27. [code-reviewer](./code-reviewer/) ⭐ NEW
+**AI-powered code review before commits**
+
+🔍 Reviews code for bugs, security, performance:
+- 🐛 Bug detection (undefined vars, logic errors)
+- 🔒 Security scan (secrets, SQL injection, XSS)
+- ⚡ Performance analysis (inefficient code)
+- 📐 Style checks (best practices)
+- 💡 Improvement suggestions
+
+**How it works:**
+- Analyze code before commit
+- Generate review report with score
+- Get specific fix suggestions
+- Improve code quality
+
+**Χρήση για:** Better code, fewer bugs, security
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -394,6 +414,7 @@ Analysis με confidence scoring:
 | auto-improvement-mode | ✅ Active | Time-boxed self-improvement |
 | cron-responder | ✅ Active | Cron events → Telegram bridge |
 | second-brain | ✅ Active | AI-powered knowledge management |
+| code-reviewer | ✅ Active | Code review before commits |
 
 ## 🔧 Για Developers
 
