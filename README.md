@@ -330,6 +330,26 @@ Analysis με confidence scoring:
 
 ---
 
+### 26. [second-brain](./second-brain/) ⭐ NEW
+**AI-powered personal knowledge management**
+
+🧠 Your AI second brain:
+- 📝 Capture ideas, notes, meeting minutes
+- 🗂️ Auto-organization and tagging
+- 🔗 Connect related ideas
+- 💡 AI insights and pattern recognition
+- 📊 Daily knowledge briefings
+
+**How it works:**
+- Drop ideas into inbox
+- AI organizes and links them
+- Discover connections you missed
+- Get daily insights from your knowledge
+
+**Χρήση για:** Knowledge management, idea capture, learning
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -373,6 +393,7 @@ Analysis με confidence scoring:
 | email-assistant | ✅ Active | Gmail με triple security safeguards |
 | auto-improvement-mode | ✅ Active | Time-boxed self-improvement |
 | cron-responder | ✅ Active | Cron events → Telegram bridge |
+| second-brain | ✅ Active | AI-powered knowledge management |
 
 ## 🔧 Για Developers
 
