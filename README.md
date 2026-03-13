@@ -370,6 +370,25 @@ Analysis με confidence scoring:
 
 ---
 
+### 28. [smart-router](./smart-router/) ⭐ NEW
+**The brain - automatic skill activation**
+
+🧠 Smart skill router that activates skills automatically:
+- 🎯 Analyzes your messages
+- ⚡ Detects what you need
+- 🤖 Activates right skill without commands
+- 📚 Learns from your patterns
+
+**Auto-activates:**
+- Send code → Code Reviewer
+- "Remember" → Second Brain
+- Git commands → GitHub Pro Sync
+- Research questions → Deep Research
+
+**Χρήση για:** Seamless, intelligent automation
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -415,6 +434,7 @@ Analysis με confidence scoring:
 | cron-responder | ✅ Active | Cron events → Telegram bridge |
 | second-brain | ✅ Active | AI-powered knowledge management |
 | code-reviewer | ✅ Active | Code review before commits |
+| smart-router | ✅ Active | Automatic skill activation |
 
 ## 🔧 Για Developers
 
