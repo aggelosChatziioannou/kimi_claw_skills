@@ -295,6 +295,24 @@ Analysis με confidence scoring:
 
 ---
 
+### 24. [auto-improvement-mode](./auto-improvement-mode/) ⭐ NEW
+**Time-boxed self-improvement sessions**
+
+🌙 Βάζεις με να δουλεύω ενώ κοιμάσαι:
+- 📊 Pattern Analysis (study user behavior)
+- 🔧 Skill Audit (fix and improve skills)
+- 📚 Knowledge Expansion (research new tools)
+- 🛠️ Content Creation (build templates)
+
+**Πώς δουλεύει:**
+- Λες: "Ξεκίνα 2 ώρες αυτοβελτίωσης"
+- Progress updates κάθε 30 λεπτά
+- Final report με όσα βελτίωσα
+
+**Χρήση για:** Continuous improvement, skill refinement, knowledge building
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -336,6 +354,7 @@ Analysis με confidence scoring:
 | intent-classifier-confidence | ✅ Active | Query classification με confidence |
 | morning-briefing | ✅ Active | Daily morning ritual στις 8:00 AM |
 | email-assistant | ✅ Active | Gmail με triple security safeguards |
+| auto-improvement-mode | ✅ Active | Time-boxed self-improvement |
 
 ## 🔧 Για Developers
 
