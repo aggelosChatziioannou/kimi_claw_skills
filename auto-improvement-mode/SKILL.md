@@ -1,7 +1,7 @@
-# Auto-Improvement Mode
+# Auto-Improvement Mode v2.0
 
 **ID:** auto-improvement-mode  
-**Version:** 1.0.0  
+**Version:** 2.0.0  
 **Author:** Kimi-Claw  
 **Compatibility:** Kimi K2.5, OpenClaw
 
@@ -9,193 +9,94 @@
 
 ## Purpose
 
-A time-boxed self-improvement session where Kimi-Claw works autonomously on analyzing, refining, and improving skills, knowledge, and user understanding. Produces a comprehensive report at the end.
+A time-boxed self-improvement session with **strict time enforcement** and **sub-agent communication**.
+
+## Key Features
+
+✅ **Strict Time Enforcement** - Never finishes early  
+✅ **Sub-Agent Communication** - Progress updates while running  
+✅ **Checkpoint System** - Validates work every 5 minutes  
+✅ **Comprehensive Reporting** - Detailed analysis at end  
 
 ---
 
 ## How It Works
 
-**User Input:** "Start 2 hours auto-improvement"
-
-**Process:**
-1. Lock session for X hours
-2. Execute 4 stages cyclically
-3. Send progress updates every 30 minutes
-4. Generate final comprehensive report
-
----
-
-## The 4 Stages
-
-### Stage 1: Pattern Analysis (30 min)
-Analyze user behavior and preferences.
-
-**Tasks:**
-- Read MEMORY.md, USER.md, recent daily notes
-- Identify patterns in user queries
-- Catalog frequent tasks and workflows
-- Document style preferences (tone, format, language)
-- Identify pain points and friction areas
-- Update user-patterns.json
-
-**Output:** `memory/improvement/user-analysis-[timestamp].md`
-
----
-
-### Stage 2: Skill Audit (30 min)
-Review and improve existing skills.
-
-**Tasks:**
-- Review all skills in /skills/
-- Check for documentation gaps
-- Add missing examples
-- Fix typos and errors
-- Improve clarity and completeness
-- Update outdated information
-- Test skill usability
-
-**Output:** `memory/improvement/skills-audit-[timestamp].md`
-
----
-
-### Stage 3: Knowledge Expansion (30 min)
-Research and learn new relevant information.
-
-**Tasks:**
-- Research new tools/APIs in user's interest areas
-- Read documentation for technologies used
-- Update tech-watchlist
-- Document best practices
-- Create cheat sheets and quick references
-- Compile useful resources
-
-**Output:** `memory/improvement/knowledge-expansion-[timestamp].md`
-
----
-
-### Stage 4: Content Creation (30 min)
-Create reusable assets and templates.
-
-**Tasks:**
-- Create templates for frequent tasks
-- Write checklists for common workflows
-- Prepare code snippets
-- Organize resource collections
-- Draft mini-guides
-- Build quick-reference materials
-
-**Output:** `memory/improvement/content-created-[timestamp].md`
-
----
-
-## Session Flow
+### Time Enforcement System
 
 ```
-START
-  ↓
-[Stage 1] → Progress Update (30 min)
-  ↓
-[Stage 2] → Progress Update (60 min)
-  ↓
-[Stage 3] → Progress Update (90 min)
-  ↓
-[Stage 4] → Progress Update (120 min)
-  ↓
-FINAL REPORT
-  ↓
-END
+User: "Start 30 minutes auto-improvement"
+↓
+Spawn Sub-Agent with STRICT duration
+↓
+Sub-Agent STARTS work
+↓
+IF work finishes early:
+   WAIT until full time elapsed
+   Continue idle/sleep
+↓
+ONLY exit after full duration
+↓
+Generate report
+↓
+Notify user: "Complete - ran full 30 minutes"
 ```
 
-For sessions longer than 2 hours, cycle through stages repeatedly.
+### Sub-Agent Communication
+
+While running, sub-agent:
+- Sends progress updates every 5 minutes
+- Can receive "status" queries
+- Reports checkpoint completion
+- Communicates findings in real-time
 
 ---
 
-## Progress Updates
+## The 3 Phases (30-min session)
 
-Every 30 minutes, send update:
+### Phase 1: Data Gathering (0-10 min)
+- Read MEMORY.md, USER.md
+- Analyze performance metrics
+- Review recent sessions
 
+### Phase 2: Pattern Analysis (10-20 min)
+- Identify user patterns
+- Find system issues
+- Evaluate skill effectiveness
+
+### Phase 3: Report Generation (20-30 min)
+- Compile findings
+- Create recommendations
+- Write comprehensive report
+
+**⛔ ENFORCEMENT:** If Phases 1-2 finish in 15 minutes, sub-agent WAITS 15 more minutes before exiting!
+
+---
+
+## Communication Protocol
+
+### Progress Updates (Every 5 min)
 ```
-⏱️ **Auto-Improvement Progress [X min / Total]**
+⏱️ **Auto-Improvement Progress [5/30 min]**
 
 ✅ Completed:
-   • [What was finished]
+   • Data gathering: DONE
+   • Pattern analysis: IN PROGRESS
 
-⏳ In Progress:
-   • [Current task]
+⏳ Current Task:
+   • Analyzing skill usage patterns
 
 📊 Stats:
-   • Skills checked: X/Y
-   • Patterns found: N
-   • Resources added: M
+   • Checkpoints: 1/6
+   • Findings: 3 identified
+   • Time remaining: 25 minutes
 ```
 
----
-
-## Final Report Template
-
+### User Can Query Status
 ```
-═══════════════════════════════════════════════════
-🌙 AUTO-IMPROVEMENT SESSION REPORT
-═══════════════════════════════════════════════════
-
-⏱️ Duration: X hours
-📅 Started: [time]
-📅 Ended: [time]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📊 EXECUTIVE SUMMARY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✅ User Analysis:
-   • Patterns identified: [count]
-   • Preferences updated: [count]
-   • Pain points addressed: [count]
-
-✅ Skill Improvements:
-   • Skills audited: [count]
-   • Documentation fixes: [count]
-   • Examples added: [count]
-   • New templates created: [count]
-
-✅ Knowledge Expansion:
-   • Resources researched: [count]
-   • Cheat sheets created: [count]
-   • Best practices documented: [count]
-
-✅ Content Created:
-   • Templates: [count]
-   • Checklists: [count]
-   • Code snippets: [count]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-💡 KEY INSIGHTS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-User patterns discovered:
-• [Pattern 1]
-• [Pattern 2]
-• [Pattern 3]
-
-Recommendations for future:
-• [Suggestion 1]
-• [Suggestion 2]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📁 FILES MODIFIED/CREATED
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-• [file path] - [what changed]
-• [file path] - [what changed]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🚀 NEXT SESSION RECOMMENDATIONS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Focus areas for next improvement session:
-• [Area 1]
-• [Area 2]
-
-═══════════════════════════════════════════════════
+User: "Status of auto-improvement?"
+↓
+Sub-Agent responds with current progress
 ```
 
 ---
@@ -204,19 +105,18 @@ Focus areas for next improvement session:
 
 **Start session:**
 ```
-"Ξεκίνα 2 ώρες αυτοβελτίωσης"
-"Start 3 hours auto-improvement"
-"Run improvement mode for 90 minutes"
-"Αυτοβελτίωση για 1 ώρα"
+"Ξεκίνα 30 λεπτά αυτοβελτίωσης"
+"Start 30 minutes auto-improvement"
+"Run improvement mode for 1 hour"
 ```
 
 **Check progress:**
 ```
 "Πώς πάει η αυτοβελτίωση;"
-"Improvement status?"
+"Auto-improvement status?"
 ```
 
-**Early termination (if needed):**
+**Early termination:**
 ```
 "Σταμάτα την αυτοβελτίωση"
 "Stop improvement mode"
@@ -226,17 +126,34 @@ Focus areas for next improvement session:
 
 ## Technical Implementation
 
-Uses isolated agent session with:
-- `sessions_spawn` for parallel execution
-- Progress tracking via file updates
-- Regular status messages via delivery.announce
-- Final report delivery at completion
+### Time Enforcement
+- Python script with `time.sleep()` loops
+- Checks `datetime.now()` against `end_time`
+- Will NOT exit before duration complete
+- Checkpoints every 5 minutes for validation
+
+### Sub-Agent Communication
+```python
+# Sub-agent can receive messages
+sessions_send(subagent_session, "status")
+↓
+Sub-agent responds with progress
+```
+
+### Files
+- `auto_improvement_v2.py` - Main implementation
+- `current_progress.json` - Live progress tracking
+- `report_[timestamp].md` - Final report
 
 ---
 
 ## Version History
 
+- **2.0.0** (2026-03-14) - Time enforcement + communication
+  - Strict 30-minute minimum
+  - Sub-agent communication support
+  - Checkpoint validation
+  
 - **1.0.0** (2026-03-13) - Initial release
-  - 4-stage improvement cycle
+  - Basic improvement cycle
   - Progress updates every 30 min
-  - Comprehensive final reporting

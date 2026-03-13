@@ -295,21 +295,30 @@ Analysis με confidence scoring:
 
 ---
 
-### 24. [auto-improvement-mode](./auto-improvement-mode/) ⭐ NEW
-**Time-boxed self-improvement sessions**
+### 24. [auto-improvement-mode](./auto-improvement-mode/) ⭐ NEW v2.0
+**Time-boxed self-improvement with strict enforcement**
 
-🌙 Βάζεις με να δουλεύω ενώ κοιμάσαι:
-- 📊 Pattern Analysis (study user behavior)
-- 🔧 Skill Audit (fix and improve skills)
-- 📚 Knowledge Expansion (research new tools)
-- 🛠️ Content Creation (build templates)
+🧠 Self-analysis με ⏱️ strict time enforcement:
+- ⛔ **Never finishes early** - Enforced minimum duration
+- 💬 **Sub-agent communication** - Progress updates while running
+- ✅ **Checkpoint validation** - Every 5 minutes
+- 📝 **Comprehensive reports** - Detailed findings
 
-**Πώς δουλεύει:**
-- Λες: "Ξεκίνα 2 ώρες αυτοβελτίωσης"
-- Progress updates κάθε 30 λεπτά
-- Final report με όσα βελτίωσα
+**How it works:**
+```
+User: "Start 30 min auto-improvement"
+↓
+🚀 Spawns sub-agent with STRICT 30-min timer
+↓
+⏱️ Sub-agent runs for FULL 30 minutes
+   (waits if finishes early!)
+↓
+📊 Sends progress every 5 minutes
+↓
+✅ Completes exactly at 30-min mark
+```
 
-**Χρήση για:** Continuous improvement, skill refinement, knowledge building
+**Χρήση για:** Guaranteed improvement time, not shortcuts
 
 ---
 
@@ -477,7 +486,7 @@ Analysis με confidence scoring:
 | intent-classifier-confidence | ✅ Active | Query classification με confidence |
 | morning-briefing | ✅ Active | Daily morning ritual στις 8:00 AM |
 | email-assistant | ✅ Active | Gmail με triple security safeguards |
-| auto-improvement-mode | ✅ Active | Time-boxed self-improvement |
+| auto-improvement-mode | ✅ Active v2.0 | Strict time enforcement + communication |
 | cron-responder | ✅ Active | Cron events → Telegram bridge |
 | second-brain | ✅ Active | AI-powered knowledge management |
 | code-reviewer | ✅ Active | Code review before commits |

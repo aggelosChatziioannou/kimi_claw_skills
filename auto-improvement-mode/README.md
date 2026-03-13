@@ -1,75 +1,104 @@
-# Auto-Improvement Mode
+# Auto-Improvement Mode v2.0
 
-Put Kimi-Claw to work on self-improvement while you sleep.
+Time-boxed self-improvement with strict enforcement.
 
 ## What It Does
 
-Time-boxed autonomous improvement session:
-- Analyzes your patterns and preferences
-- Audits and improves all skills
-- Expands knowledge base
-- Creates reusable templates
+🧠 **Self-analysis** - Identifies improvement areas  
+⏱️ **Strict time enforcement** - Never finishes early  
+💬 **Sub-agent communication** - Progress updates while running  
+📝 **Comprehensive reports** - Detailed findings  
 
-## How to Use
+## Key Features
 
-Start a session:
+### 1. Time Enforcement
+- Runs for EXACT requested duration
+- Cannot finish early
+- Checkpoints every 5 minutes
+- Validates actual work done
+
+### 2. Communication While Running
+- Progress updates every 5 minutes
+- Can query status anytime
+- Real-time findings
+- Interactive during session
+
+### 3. Three-Phase Analysis
+- **Phase 1:** Data gathering (0-10 min)
+- **Phase 2:** Pattern analysis (10-20 min)
+- **Phase 3:** Report generation (20-30 min)
+
+## Usage
+
+### Start Session
 ```
-"Ξεκίνα 2 ώρες αυτοβελτίωσης"
-"Start 3 hours auto-improvement"
-"Run improvement mode for 90 minutes"
+"Start 30 minutes auto-improvement"
+"Ξεκίνα 30 λεπτά αυτοβελτίωσης"
+"Run improvement mode for 1 hour"
 ```
 
-## The Process
-
-**Every 30 minutes:**
-1. **Pattern Analysis** - Study your behavior
-2. **Skill Audit** - Fix and improve skills
-3. **Knowledge Expansion** - Research new tools
-4. **Content Creation** - Build templates
-
-**Progress updates** every 30 minutes via Telegram.
-
-**Final report** at completion with all improvements.
-
-## Example Report
-
+### Check Progress
 ```
-═══════════════════════════════════════
-🌙 AUTO-IMPROVEMENT REPORT
-═══════════════════════════════════════
+"Status of auto-improvement?"
+"Πώς πάει η αυτοβελτίωση;"
+```
 
-⏱️ Duration: 2 hours
+### How It Works
+```
+User: "Start 30 min auto-improvement"
+↓
+🚀 Spawns sub-agent with STRICT 30-min timer
+↓
+⏱️ Sub-agent works for FULL 30 minutes
+   (even if analysis finishes in 5 minutes!)
+↓
+📊 Sends progress every 5 minutes
+↓
+✅ Completes exactly at 30-minute mark
+↓
+📄 Delivers comprehensive report
+```
 
-✅ User Analysis:
-   • Patterns found: 5
-   • Preferences updated: 3
+## Example Output
 
-✅ Skill Improvements:
-   • Skills audited: 23
-   • Documentation fixes: 12
-   • Examples added: 15
+### Progress Update (5 min)
+```
+⏱️ Auto-Improvement Progress [5/30 min]
 
-✅ Knowledge Expansion:
-   • Resources researched: 8
-   • Cheat sheets: 2
+✅ Completed:
+   • Data gathering: DONE
 
-✅ Content Created:
-   • Templates: 5
-   • Checklists: 3
+⏳ Current Task:
+   • Analyzing skill usage patterns
 
-💡 Insights:
-   • You frequently ask for X
-   • Suggested focus: Y
+📊 Stats:
+   • Checkpoints: 1/6
+   • Findings: 3 identified
+```
 
-═══════════════════════════════════════
+### Final Report
+```
+✅ AUTO-IMPROVEMENT COMPLETE
+⏱️ Duration: 30 minutes (FULL TIME)
+📄 Report: memory/improvement/report_...
+
+Findings:
+• USER.md is empty (needs migration)
+• 31 skills, limited activation
+• Previous reports lacked depth
+
+Recommendations:
+1. Fix USER.md
+2. Add time validation
+3. Improve checkpoint system
 ```
 
 ## Files
 
-| File | Purpose |
-|------|---------|
-| `SKILL.md` | Full documentation |
+- `SKILL.md` - Full documentation
+- `auto_improvement_v2.py` - Implementation with time enforcement
+- `current_progress.json` - Live progress tracking
 
-## Version History
+## Version
 
-- **1.0.0** (2026-03-13) - Initial release
+2.0.0 (2026-03-14) - Strict time enforcement + sub-agent communication
