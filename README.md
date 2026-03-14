@@ -469,6 +469,30 @@ User: "Start 30 min auto-improvement"
 
 ---
 
+### 32. [cron-monitor](./cron-monitor/) ⭐ NEW
+**Automatic cron job health monitoring**
+
+🔍 Monitor all your cron jobs and get alerts before issues become critical:
+- 🚨 Smart alerts (no spam - 1 hour cooldown)
+- ⚠️ Detects consecutive failures
+- ⏱️ Tracks run duration trends
+- 📊 Daily health summaries
+- 🔧 Suggests fixes for common issues
+
+**Example:**
+```
+🚨 **CRON JOB CRITICAL**
+
+📋 Job: Memory Consolidation
+⚠️ Failed 3 times in a row
+⏱️ Last Run: 2026-03-14 10:05
+🔧 Suggested Action: Update OpenClaw
+```
+
+**Χρήση για:** Peace of mind - never wonder if your automations are working
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -518,6 +542,7 @@ User: "Start 30 min auto-improvement"
 | sub-agent-monitor | ✅ Active | Sub-agent tracking & announcements |
 | ai-code-analyzer | ✅ Active | Deep semantic code analysis |
 | ecourse-monitor | ✅ Active | UOI ecourse announcement tracking |
+| cron-monitor | ✅ Active | Automatic cron job health monitoring |
 
 ## 🔧 Για Developers
 
