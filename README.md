@@ -493,6 +493,30 @@ User: "Start 30 min auto-improvement"
 
 ---
 
+### 33. [auto-git-commit](./auto-git-commit/) ⭐ NEW
+**Automatic git commit and push**
+
+🤖 Never lose work again - automatic commits with descriptive messages:
+- ✅ Auto-commit on file changes
+- 📝 Smart descriptive messages
+- 🔗 Hash verification after push
+- 📊 Daily activity summaries
+- 🚫 Safe operations (no force push)
+
+**Example:**
+```
+✅ **AUTO-COMMIT SUCCESS**
+
+📦 Committed: 3 files
+🔗 Hash: a1b2c3d
+📤 Pushed to: origin/main
+✅ Verified: Local = Remote
+```
+
+**Χρήση για:** Never lose work - everything auto-committed to GitHub
+
+---
+
 ## 🚀 Πώς να Χρησιμοποιήσεις
 
 Κάθε skill έχει το δικό του folder με:
@@ -543,6 +567,7 @@ User: "Start 30 min auto-improvement"
 | ai-code-analyzer | ✅ Active | Deep semantic code analysis |
 | ecourse-monitor | ✅ Active | UOI ecourse announcement tracking |
 | cron-monitor | ✅ Active | Automatic cron job health monitoring |
+| auto-git-commit | ✅ Active | Automatic git commit and push |
 
 ## 🔧 Για Developers
 
